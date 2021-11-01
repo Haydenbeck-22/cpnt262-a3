@@ -1,4 +1,4 @@
-
+"use strict";
   const useFetchedData = function(endpoint, dataHandler){
     fetch(endpoint)
     .then(function(response){

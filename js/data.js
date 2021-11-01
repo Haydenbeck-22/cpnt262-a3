@@ -28,19 +28,6 @@
       console.log(err);
     });
   }
-  
 useFetchedData(function(character){
-  const container = document.querySelector('.container');
-      
-  container.innerHTML = `
-    <h1>${character.name}</h1>
-    <h2>Updated on ${character.updatedAt}</h2>
-    <h3>Featured in ${character.tvShows}</h3>
-    <img src=${character.imageUrl} alt="Captain Frost"</img>
-    <a href=${character.sourceUrl}>Wiki Page</a>
-  
-  `;
-
-
 
 })
